@@ -1,0 +1,85 @@
+
+.upcoming-matches-container {
+  margin: 0 80px;
+  padding: 48px 16px;
+  position: relative;
+  overflow: visible;
+}
+
+@media (max-width: 1024px) {
+  .upcoming-matches-container {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .upcoming-matches-container {
+    margin: 0px;
+  }
+}
+
+/* Ensure swiper uses full width */
+.custommatch-swiper-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* Swiper slides centered */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+/* Hide default swiper arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
+}
+
+/* Custom nav buttons styling */
+.custommatch-button-prev,
+.custommatch-button-next {
+  position: absolute;
+  top: -12%; /* top right */
+  background-color: #E5E7EB;
+  color: #1c1c1c;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  /* z-index: 800; */
+  transition: background-color 0.3s ease;
+}
+
+/* Keep next button at top right */
+.custommatch-button-next {
+  right: 0;
+}
+
+/* Place prev button slightly left of next */
+.custommatch-button-prev {
+  right: 40px;
+}
+
+/* Hover effect */
+.custommatch-button-next:hover,
+.custommatch-button-prev:hover {
+  background-color: #9CA3AF;
+}
+@media (max-width: 480px) {
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Responsive buttons */
+@media (max-width: 768px) {
+  .custommatch-button-prev {
+    right: 40px;
+  }
+  .custommatch-button-next {
+    right: 0;
+  }
+}
+
+
