@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+  font-family: "Oswald", sans-serif;
+
+}
+
+.match-card {
+  width: 100%;
+    max-width: 300px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  
+  }
+  
+  .league-name {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    /* margin-bottom: 15px; */
+    color: white;
+  }
+  .match-about{
+    height: 185px;
+  
+   
+  }
+  
+  .match-details {
+    text-align: center;
+  
+  }
+ 
+  
+  .match-date-time {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+  
+  .match-venue {
+    font-size: 14px;
+  font-weight: 400;
+  }
+  .teams-info{
+    padding:24px;
+    background-color: #F5F5F5 ;
+  }
+  .teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:20px;
+  
+  }
+  
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .country-flag {
+    font-size: 30px;
+    margin-bottom: 2px;
+  }
+  
+  .team-name {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #1c1c1c;
+  }
+  
+  .vs {
+    font-size: 16px;
+    color: white;
+    background-color: #FFC107;
+    padding: 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+  }
+  
+  .view-details-btn {
+    width: 100%;
+    padding: 8px;
+    background-color:#FFC107 ;
+    color: #1c1c1c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    transition: background-color 0.3s;
+  }
+  
+  .view-details-btn:hover {
+    background-color: white;
+  }
+  @media (max-width: 760px) {
+    .match-card {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 480px) {
+    .match-card {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }

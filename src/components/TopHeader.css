@@ -1,0 +1,41 @@
+.banner{
+    background-color: black;
+}
+
+
+.top-header{
+    display: flex;
+    margin-right: 75px;
+    margin-left: 75px;
+    justify-content: space-between;
+    padding:8px 16px ;
+    align-items: center;
+  
+}
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.socials p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#ffffffe6;
+}
+.socials span{
+    background-color: #3E3E3E;
+   color: #ffffffe6;
+  padding-inline: .5rem;
+  padding-block: .3rem;
+    cursor: pointer;
+    border-radius: .25rem;
+}
+.socials span:hover{
+    background-color: #2C2C2C;
+}
+@media (max-width : 786px) {
+    .top-header{
+        padding: 8px 16px;
+        margin: 0;
+    }
+}
